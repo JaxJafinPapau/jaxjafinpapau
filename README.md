@@ -32,7 +32,7 @@ end
 
 ```
 
-[![Linkedin: jeremy-bennett-jaxjafinpapau](https://img.shields.io/badge/-jeremy-bennett-jaxjafinpapau-blue?style=round-square&logo=Linkedin&link=https://www.linkedin.com/in/jeremy-bennett-jaxjafinpapau/)](https://www.linkedin.com/in/jeremy-bennett-jaxjafinpapau/)
+[![Linkedin: jeremy-bennett-jaxjafinpapau](https://img.shields.io/badge/visit%20my-LinkedIn-blue)](https://www.linkedin.com/in/jeremy-bennett-jaxjafinpapau/)
 [![GitHub jaxjafinpapau](https://img.shields.io/github/followers/jaxjafinpapau?label=follow&style=social)](https://github.com/jaxjafinpapau )
 
 
