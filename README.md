@@ -40,11 +40,11 @@ end
 
 Veritone Translate is a React application that uses redux, sagas, and material-ui for use as a document translation tool. A user can upload any common document type such as .docx, .odt, .xlsx, .pdf, .txt, etc or enter free-form textual input to be translated to and from over 30 languages. I was given the app fresh out of prototyping from an offshore team and tasked with updating it for Veritone's new core back end, which runs the translation jobs.
 
-![Translate Document Upload](/Translate_Doc_Upload.png)
-
-![Translate Language Select](/Translate_Text_Upload_Lang_Select.png)
-
 ![Translate History Tab](/Translate_History_Selected.png)
+
+Veritone Identify is also a React application with a focus on using facial recognition as an after-the-fact investigative tool. When a user uploads image or video content, they can run facial recognition matching the content against a library of images for potential matches and highlighting those above a particular confidence score.
+
+![Identify Main Screen](/Identify.png)
 
 ---
 
