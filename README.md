@@ -42,7 +42,7 @@ Veritone Translate is a React application that uses redux, sagas, and material-u
 
 ![Translate Document Upload](/Translate_Doc_Upload.png)
 
-![Translate Language Select](/Translate_Text_Upload_Language_Select.png)
+![Translate Language Select](/Translate_Text_Upload_Lang_Select.png)
 
 ![Translate History Tab](/Translate_History_Selected.png)
 
