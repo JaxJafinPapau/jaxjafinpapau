@@ -38,13 +38,18 @@ end
 
 ## Professional Work
 
-Veritone Translate is a React application that uses redux, sagas, and material-ui for use as a document translation tool. A user can upload any common document type such as .docx, .odt, .xlsx, .pdf, .txt, etc or enter free-form textual input to be translated to and from over 30 languages. I was given the app fresh out of prototyping from an offshore team and tasked with updating it for Veritone's new core back end. I also contribute to the translation engines which include a Python engine for document translations and a suite of Go engines for text translation.
+### Veritone Translate 
+A React application that uses redux, sagas, and material-ui for use as a document translation tool. A user can upload any common document type such as .docx, .odt, .xlsx, .pdf, .txt, etc or enter free-form textual input to be translated to and from over 30 languages. I was given the app fresh out of prototyping from an offshore team and tasked with updating it for Veritone's new core back end. I also contribute to the translation engines which include a Python engine for document translations and a suite of Go engines for text translation.
 
 ![Translate History Tab](/Translate_History_Selected.png)
 
-Veritone Identify is also a React application with a focus on using facial recognition as an after-the-fact investigative tool. When a user uploads image or video content, they can run facial recognition matching the content against a library of images for potential matches and highlighting those above a particular confidence score.
+### Veritone Identify
+
+A React application with a focus on using facial recognition as an after-the-fact investigative tool. When a user uploads image or video content, they can run facial recognition matching the content against a library of images for potential matches and highlighting those above a particular confidence score.
 
 ![Identify Main Screen](/Identify.png)
+
+### Back End Work
 
 In addition to my team's front end application suite, I've had the rewarding opportunity to build and contribute to several back end services which at Veritone are packaged as engines. Engines are docker containers, and are frequently multi-staged builds leveraging a variety of 3rd party partner API services, as well as open source machine learning algorithms such as Yolo for object detection and Tesseract for optical character recognition.
 
