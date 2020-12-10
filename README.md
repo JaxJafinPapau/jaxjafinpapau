@@ -44,7 +44,7 @@ California requires that law enforcement agencies collect data about perceived r
 
 The front end is a React application that uses redux with thunks for state management and server interaction, material-ui for component development, and jest for testing.
 
-The back end of the applicatin is a Ruby on Rails API that I was tasked with building from the ground up. It uses docker-compose to build an rspec-powered test environment where the rails app authenticates against a simulated LDAP server in order to mock authenticating against production LDAP servers of multiple law enforcement agencies.
+The back end of the application is a Ruby on Rails API that I was tasked with building from the ground up. It uses docker-compose to build an rspec-powered test environment where the rails app authenticates against a simulated LDAP server in order to mock authenticating against production LDAP servers of multiple law enforcement agencies.
 
 ![RIPA Form Flow](/RIPA.png)
 
