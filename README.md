@@ -38,6 +38,16 @@ end
 
 ## Professional Work
 
+### Veritone RIPA
+
+California requires that law enforcement agencies collect data about perceived race, gender, and sexual orientation when officers engage with the public and action is taken against them. I was paired with a senior front end engineer on my team to produce an application that could streamline the collection of data from officers and leverage cognitive analysis of the collected data to produce insights for law enforcement and civilian leadership.
+
+The front end is a React application that uses redux with thunks for state management and server interaction, material-ui for component development, and jest for testing.
+
+The back end of the applicatin is a Ruby on Rails API that I was tasked with building from the ground up. It uses docker-compose to build an rspec-powered test environment where the rails app authenticates against a simulated LDAP server in order to mock authenticating against production LDAP servers of multiple law enforcement agencies.
+
+![RIPA Form Flow](/RIPA.png)
+
 ### Veritone Translate 
 A React application that uses redux, sagas, and material-ui for use as a document translation tool. A user can upload any common document type such as .docx, .odt, .xlsx, .pdf, .txt, etc or enter free-form textual input to be translated to and from over 30 languages. I was given the app fresh out of prototyping from an offshore team and tasked with updating it for Veritone's new core back end. I also contribute to the machine learning powered translation engines which include a Python service for native document translations and a suite of Go engines for text translation.
 
@@ -51,7 +61,7 @@ A React application with a focus on using facial recognition as an after-the-mat
 
 ### Back End Work
 
-In addition to my team's front end application suite, I've had the rewarding opportunity to build and contribute to several back end services which at Veritone are packaged as engines. Engines are docker containers, and are frequently multi-staged builds leveraging a variety technologies such as Alpine base images and open source libraries. Some engines take advantage of 3rd party images or partner API services, while others are written in house to use open source machine learning algorithms such as Yolo for object detection and Tesseract for optical character recognition. Engines are orchestrated by a Go application which I have made contributions to as well.
+In addition to my team's front end application suite and Veritone-RIPA, I've had the rewarding opportunity to build and contribute to several back end services which at Veritone are packaged as engines. Engines are docker containers, and are frequently multi-staged builds leveraging a variety technologies such as Alpine base images and open source libraries. Some engines take advantage of 3rd party images or partner API services, while others are written in house to use open source machine learning algorithms such as Yolo for object detection and Tesseract for optical character recognition. Engines are orchestrated by a Go application which I have made contributions to as well.
 
 ![Bulk Tag Engine](/bulk_tag.png)
 ![Text Analytics Engine](/text_analytics.png)
