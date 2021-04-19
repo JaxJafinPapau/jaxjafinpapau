@@ -18,6 +18,10 @@ class Api::V1::JeremyBennett < ApiBaseController
     end
     render status: 418
   end
+  
+  def family
+    super
+  end
 
   private
 
