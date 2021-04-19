@@ -3,7 +3,7 @@
 ```ruby
 class Api::V1::JeremyBennett < ApiBaseController
   def work
-    profession = Programmer.new(tools)
+    profession = Developer.new(tools)
     render status: 200, json: FullStack.new(profession)
   end
 
@@ -22,11 +22,11 @@ class Api::V1::JeremyBennett < ApiBaseController
   private
 
     def tools
-      params.permit(:react, :node, :rails, :python, :go, :docker)
+      params.require(:full_stack_developer).permit(:react, :node, :rails, :python, :go, :docker)
     end
 
     def play
-      params.permit(:snow, :woods, :mountains, :get_outside)
+      params.require(:human).permit(:snow, :woods, :mountains, :get_outside)
     end
 end
 
