@@ -38,13 +38,13 @@ end
 
 ## Professional Work
 
-### Veritone RIPA
+### Veritone Contact
 
 California requires that law enforcement agencies collect data about perceived race, gender, and sexual orientation when officers engage with the public and action is taken against them. I was paired with a senior front end engineer on my team to produce an application that could streamline the collection of data from officers and leverage cognitive analysis of the collected data to produce insights for law enforcement and civilian leadership.
 
 The front end is a React application that uses redux with thunks for state management and server interaction, material-ui for component development, and jest for testing.
 
-The back end of the application is a Ruby on Rails API that I was tasked with building from the ground up. It uses docker-compose to build an rspec-powered test environment where the rails app authenticates against a simulated LDAP server in order to mock authenticating against production LDAP servers of multiple law enforcement agencies.
+The back end of the application is a Ruby on Rails API that I was tasked with building from the ground up. It uses docker-compose to build an rspec-powered test environment with 100% test coverage. This back end also connects Contact to AiWare, Veritone's 'operating system for AI' to highlight PII for redaction and visualize the collected data with Veritone Illuminate.
 
 ![RIPA Form Flow](/RIPA.png)
 
