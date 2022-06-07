@@ -26,7 +26,14 @@ class Api::V1::JeremyBennett < ApiBaseController
   private
 
     def tools
-      params.require(:full_stack_developer).permit(:react, :node, :rails, :python, :go, :docker)
+      params.require(:software_engineer).permit(
+        :ruby,
+        :rails,
+        :elixir,
+        :phoenix,
+        :react,
+        :docker
+      )
     end
 
     def play
