@@ -46,14 +46,6 @@ end
 [![Linkedin: jeremy-bennett-jaxjafinpapau](https://img.shields.io/badge/visit%20my-LinkedIn-blue)](https://www.linkedin.com/in/jeremy-bennett-jaxjafinpapau/)
 [![GitHub jaxjafinpapau](https://img.shields.io/github/followers/jaxjafinpapau?label=follow&style=social)](https://github.com/jaxjafinpapau )
 
-## Cool Stats
-
-(provided by [anuraghazra](https://github.com/anuraghazra/github-readme-stats))
-
-<img align="left" src="https://github-readme-stats.vercel.app/api?username=jaxjafinpapau&show_icons=true&theme=nord&count_private=true" />
-<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaxjafinpapau&layout=compact" />
-
-
 ## Professional Work
 
 ### Weedmaps.com
@@ -95,5 +87,9 @@ A React application with a focus on using facial recognition as an after-the-mat
 
 In addition to my team's front end application suite and Veritone-RIPA, I've had the rewarding opportunity to build and contribute to several back end services which at Veritone are packaged as engines. Engines are docker containers, and are frequently multi-staged builds leveraging a variety technologies such as Alpine base images and open source libraries. Some engines take advantage of 3rd party images or partner API services, while others are written in house to use open source machine learning algorithms such as Yolo for object detection and Tesseract for optical character recognition. Engines are orchestrated by a Go application which I have made contributions to as well.
 
----
+## Cool Stats
 
+(provided by [anuraghazra](https://github.com/anuraghazra/github-readme-stats))
+
+<img align="left" src="https://github-readme-stats.vercel.app/api?username=jaxjafinpapau&show_icons=true&theme=nord&count_private=true" />
+<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaxjafinpapau&layout=compact" />
