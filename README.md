@@ -39,7 +39,7 @@ class Api::V1::JeremyBennett < ApiBaseController
     end
 
     def play
-      params.require(:human).permit(:snow, :woods, :mountains, :get_outside)
+      params.require(:human).permit(:snow, :woods, :mountains, :plants)
     end
 end
 
