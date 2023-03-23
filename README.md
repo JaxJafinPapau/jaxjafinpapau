@@ -2,6 +2,8 @@
 
 ```ruby
 class Api::V1::JeremyBennett < ApiBaseController
+  before_action :set_free_time
+  
   def work
     profession = Developer.new(tools)
     render status: 200, json: FullStack.new(profession)
@@ -13,7 +15,7 @@ class Api::V1::JeremyBennett < ApiBaseController
   end
 
   def fun
-    while free_time == true do
+    while free_time do
       activities = Fun.new(play)
     end
     render status: 418
