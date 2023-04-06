@@ -53,7 +53,7 @@ end
 ### Weedmaps.com
 ![Weedmaps Online Ordering](/wm_orders.png)
 
-Weedmaps is the cannabis' industries leader in e-commerce and I contributed to order management and customer relationship management in Elixir/Phoenix, embedded storefronts in Typescript/Next.js/Node, and flagship weedmaps.com site in Ruby on Rails and Typescript/React. Most of my work with this team focused on facilitating online ordering to include piping and maintaining necessary user and payment data for analytics, establishing payment integrations with industry payment solutions providers, building self service tools to maintain customer product data, and limiting order amounts for jurisdictional compliance laws.
+Weedmaps is the cannabis industry leader in e-commerce and I contributed to order management and customer relationship management in Elixir/Phoenix, embedded storefronts in Typescript/Next.js/Node, and flagship weedmaps.com site in Ruby on Rails and Typescript/React. Most of my work with this team focused on facilitating online ordering to include piping and maintaining necessary user and payment data for analytics, establishing payment integrations with industry payment solutions providers, building self service tools to maintain customer product data, and limiting order amounts for jurisdictional compliance laws.
 
 ### RecruitMilitary
 ![RecruitMilitary Homepage](/rm_home.png)
